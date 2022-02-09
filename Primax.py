@@ -1,5 +1,8 @@
-import pandas as pd
-#pip install openpyxl
+import csv
 
-interval = pd.read_excel('input_output.xlsx',sheet_name='Sample Input', index_col=0)
-print (interval)
+with open('input.csv') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        if row == ['0;0']:
+            break
+        print(row)     
