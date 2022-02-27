@@ -37,13 +37,10 @@ for coord in coordinates:
 
 finished = False
 
-#while(finished != True):
+#while(bool(coordinates)):
 #    extractStation(coordinates)
 #    aux = coordinates[0][1]
 #    print(aux)
-#    
-#    if(bool(coordinates)):
-#        finished = True
 
 #extractStation(coordinates)
 aux = coordinates[0][1]
