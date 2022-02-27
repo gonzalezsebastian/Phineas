@@ -35,8 +35,6 @@ for coord in coordinates:
     coordinates[cont][1] = int(coordinates[cont][1])
     cont +=1
 
-finished = False
-
 #while(bool(coordinates)):
 #    extractStation(coordinates)
 #    aux = coordinates[0][1]
